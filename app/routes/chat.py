@@ -5,7 +5,7 @@ import logging
 from pydantic import BaseModel
 import openai
 
-openai.api_key = "sk-ijklmnopuvwx1234ijklmnopuvwx1234ijklmnop"
+openai.api_key = "your-openai-api-key"
 router = APIRouter(prefix=f"{app_settings.api_prefix}/llm", tags=["LLM"])
 logger = logging.getLogger("llm")
 
