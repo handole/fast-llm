@@ -1,0 +1,25 @@
+venv/
+logs/
+__pycache__/
+*.pyc
+.vscode
+.idea
+.env
+.python-version
+*.pem
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+poetry.lock
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.DS_Store

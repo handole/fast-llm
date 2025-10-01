@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "api-llm"
+version = "0.1.0"
+description = "api for llm"
+authors = ["denihandoko1 <denihandoko>"]
+readme = "README.md"
+packages = [{include = "fastapi_"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.87.0"
+uvicorn = "^0.20.0"
+passlib = "^1.7.4"
+PyJWT = "^2.6.0"
+pre-commit = "^2.20.0"
+beanie = "^1.15.4"
+motor = "^3.1.1"
+fastapi-users = "^10.2.1"
+black = "^22.10.0"
+bcrypt = "^4.0.1"
+pydantic = {extras = ["dotenv"], version = "^1.10.2"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+python-multipart = "^0.0.5"
+openai = "0.28"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
